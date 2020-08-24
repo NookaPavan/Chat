@@ -1,0 +1,16 @@
+.message-online {
+    margin : auto !important;
+    padding: 10px !important;
+    height: auto;
+    width: 20%;
+  }
+
+  .online{
+    font-size: 10px;
+    text-align: center;
+    padding: 0px !important;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ebebeb;
+  }

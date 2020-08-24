@@ -1,0 +1,30 @@
+.heading {
+    padding: 10px 16px 10px 15px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #eee;
+    z-index: 1000;
+  }
+  
+  .heading-avatar {
+    padding: 0;
+    cursor: pointer;
+  
+  }
+  
+  .heading-avatar-icon img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  .heading-compose {
+    padding: 0;
+  }
+  
+  .heading-compose i {
+    text-align: center;
+    padding: 5px;
+    color: #93918f;
+    cursor: pointer;
+  }

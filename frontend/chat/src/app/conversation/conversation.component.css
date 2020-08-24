@@ -1,0 +1,147 @@
+.conversation {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+    /*width: 100%;*/
+    border-left: 1px solid rgba(0, 0, 0, .08);
+    /*overflow-y: auto;*/
+  }
+  
+  .message {
+    padding: 0 !important;
+    margin: 0 !important;
+    background:  #f7f7f7 no-repeat fixed center;
+    background-size: cover;
+    overflow-y: auto;
+    border: 1px solid #f7f7f7;
+    height: calc(100% - 120px);
+  }
+  .message-previous {
+    margin : 0 !important;
+    padding: 0 !important;
+    height: auto;
+    width: 100%;
+  }
+  .previous {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px !important;
+    cursor: pointer;
+  }
+  
+  .previous a {
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .reply {
+    height: 60px;
+    width: 100%;
+    background-color: #dddddd;
+    padding: 10px 5px 10px 5px !important;
+    margin: 0 !important;
+    z-index: 1000;
+  }
+  
+  .reply-emojis {
+    padding: 5px !important;
+  }
+  
+  .reply-emojis i {
+    text-align: center;
+    padding: 5px 5px 5px 5px !important;
+    color: #93918f;
+    cursor: pointer;
+  }
+  
+  .reply-recording {
+    padding: 5px !important;
+  }
+  
+  .reply-recording i {
+    text-align: center;
+    padding: 5px !important;
+    color: #93918f;
+    cursor: pointer;
+  }
+  
+  .reply-send {
+    padding: 5px !important;
+  }
+  
+  .reply-send i {
+    text-align: center;
+    padding: 5px !important;
+    color: #93918f;
+    cursor: pointer;
+  }
+  
+  .reply-main {
+    padding: 2px 5px !important;
+  }
+  
+  .reply-main textarea {
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    padding: 5px !important;
+    outline: none;
+    border: none;
+    text-indent: 5px;
+    box-shadow: none;
+    height: 100%;
+    font-size: 16px;
+  }
+  
+  .reply-main textarea:focus {
+    outline: none;
+    border: none;
+    text-indent: 5px;
+    box-shadow: none;
+  }
+
+  .record-div{
+    height: 50px;
+    position: absolute;
+    bottom: 80px;
+    padding-right: 15px;
+  }
+  button{
+    background :linear-gradient(to bottom, hsl(0,0%,100%), hsl(0,0%,80%));
+    border :1px solid hsl(0,0%,70%);
+    border-radius :0.125rem;
+    box-shadow: 0.0625rem 0.0625rem 0.5rem hsla(0,0%,0%,25%);
+  }
+    
+    
+  button:active{
+    box-shadow :0 0 0.5rem hsla(0,0%,0%,25%);
+  }
+    
+  button #record{
+    color :hsl(0,50%,50%);
+  }
+
+  #controls{
+    display :flex;
+    padding :1rem;
+    border-bottom :1px solid hsl(0,0%,70%);
+    background :linear-gradient(to bottom, hsl(0,0%,100%), hsl(0,0%,90%));
+  }
+  #time{
+    font-size : 2rem;
+    font-weight: 100;
+    color: hsl(0,0%,25%);
+    width :100%;
+    display: flex;
+    align-self :center;
+    justify-content :center;
+  }
+  #RecordAction{
+    width: 100%;
+  }
+  .emoji-mart {
+    position: fixed;
+    bottom: 80px;
+    right: 190px;
+    z-index: 10;
+  }
