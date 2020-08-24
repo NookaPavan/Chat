@@ -125,7 +125,7 @@ const port = 8080;
     })
 
   });
-  mongoose.connect("mongodb+srv://dbUser:22nRNc92jeL4EfD@cluster0.eiljc.mongodb.net/Group-chat?retryWrites=true&w=majority", {useNewUrlParser: true}).then(() => {
+  mongoose.connect(""/*MongoDb Connection string*/, {useNewUrlParser: true}).then(() => {
     console.log('Connected to MongoDB');
     http.listen(port, () =>{
       console.log(`listening on *:${port}`);
